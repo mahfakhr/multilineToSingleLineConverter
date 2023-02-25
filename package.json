@@ -1,0 +1,11 @@
+{
+  "name": "txtconvertor",
+  "version": "1.0.0",
+  "description": "just fill env file with content you need and then convert a line by line file to file with multilines but with '\n'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node converter.js"
+  },
+  "author": "Mahfakhr",
+  "license": "ISC"
+}
