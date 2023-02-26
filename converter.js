@@ -17,6 +17,7 @@ async function startConvert() {
   fs.truncateSync('./env.txt');
   const fileContentdist = str.replace(/"/g, '\\"');
   fs.appendFileSync('env.txt', fileContentdist);
+  console.log('~~~~~~Your single line file is READY ;) ~~~~~~~~');
 }
 
 startConvert();
